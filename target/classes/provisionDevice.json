@@ -1,0 +1,20 @@
+{
+  "devices": [
+    {
+      "device_id":   "tracker001",
+      "entity_name": "urn:ngsi-ld:Tracker:001",
+      "entity_type": "Tracker",
+      "protocol":    "PDI-IoTA-UltraLight",
+      "transport":   "MQTT",
+      "timezone":    "Asia/Riyadh",
+      "attributes": [
+        { "object_id": "f", "name": "fuelLevel", "type": "Integer" },
+        { "object_id": "v", "name": "speed", "type": "Integer" },
+        { "object_id": "l", "name": "location", "type": "geo:json" }
+      ],
+      "static_attributes": [
+        { "name":"refVehicle", "type": "Relationship", "value": "urn:ngsi-ld:Vehicle:YS2R4X20005399401"}
+      ]
+    }
+  ]
+}

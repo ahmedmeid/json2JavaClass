@@ -1,0 +1,12 @@
+{
+  "id": "urn:ngsi-ld:Vehicle:YS2R4X20005399401",
+  "type": "Vehicle",
+  "vin": {
+    "type": "Text",
+    "value": "YS2R4X20005399401"
+  },
+  "regNo": {
+    "type" : "Text",
+    "value": "ABC123"
+  }
+}

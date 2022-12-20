@@ -1,0 +1,14 @@
+{
+  "description": "Notify me of all product price changes",
+  "subject": {
+    "entities": [{"idPattern": ".*", "type": "Product"}],
+    "condition": {
+      "attrs": [ "price" ]
+    }
+  },
+  "notification": {
+    "http": {
+      "url": "http://tutorial:3000/subscription/price-change"
+    }
+  }
+}
